@@ -74,7 +74,7 @@ p.danger {
 
 /* animated.style */
 .animate__animated.animate__fadeIn {
-  --animate-duration: 4s;
+  --animate-duration: 2s;
 }
 
 
@@ -262,7 +262,8 @@ nav.navbar .navbar-toggler[aria-expand="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-background.jpg');
+  /* background-image: url('./assets/img/banner-background.jpg'); */
+  background-image: url('./assets/img/background.jpeg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -304,6 +305,11 @@ nav.navbar .navbar-toggler[aria-expand="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+}
+
+.banner button a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .banner button svg {

@@ -8,7 +8,7 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = [ "Web Developer.", "Web Designer.", "Nothing Else." ];
+  const toRotate = [ "Mari Miyazaki.", "a Front-end Web Developer.", "enthusiastic." ];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -54,12 +54,16 @@ export const Banner = () => {
                 Welcome to Mari's portfolio
               </span>
               <h1>
-                {`Hi I'm a `}
+                {`Hello there, `}
+                <br />
+                {`I am `}
                 <span className='wrap'>{text}</span>
               </h1>
               <p>Culpa commodo cillum minim proident cupidatat incididunt id sit eu ad dolore do aute.</p>
-              <button onClick={() => console.log('connect!')}>
+              <button>
+                <a href='mailto:mari.myzk98@gmail.com?subject=From Portfolio'>
                 Let's Connect <ArrowRightCircle size={25} />
+                </a>
               </button>
             </div>
           }
