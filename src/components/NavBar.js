@@ -5,6 +5,7 @@ import gitHubIcon from '../assets/img/github-icon.png';
 import linkedInIcon from '../assets/img/linkedin-icon.png';
 // import instaIcon from '../assets/img/instagram-icon.png';
 import instaIcon from '../assets/img/instagram.png';
+import emailIcon from '../assets/img/email.png';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -76,6 +77,9 @@ export const NavBar = () => {
                 </a>
                 <a className='me-3' href="https://www.instagram.com/marie.0514/">
                   <img src={instaIcon} alt='' />
+                </a>
+                <a className='me-3' href="https://www.instagram.com/marie.0514/">
+                  <img src={emailIcon} alt='' />
                 </a>
               </div>
               <HashLink to='#contact'>
